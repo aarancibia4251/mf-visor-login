@@ -1,0 +1,267 @@
+@import 'mixins';
+
+@font-face {
+  font-family: 'Telefonica-Bold';
+  src: url('/assets/fonts/Telefonica-Bold.ttf'),
+    url('/assets/fonts/Telefonica-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Telefonica-ExtraLight';
+  src: url('/assets/fonts/Telefonica-ExtraLight.ttf'),
+    url('/assets/fonts/Telefonica-ExtraLight.otf');
+}
+
+@font-face {
+  font-family: 'Telefonica-Hand';
+  src: url('/assets/fonts/Telefonica-Hand.otf'),
+    url('/assets/fonts/Telefonica-Hand.ttf');
+}
+
+@font-face {
+  font-family: 'Telefonica-Light';
+  src: url('/assets/fonts/Telefonica-Light.otf'),
+    url('/assets/fonts/Telefonica-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Telefonica-Regular';
+  src: url('/assets/fonts/Telefonica-Regular.otf'),
+    url('/assets/fonts/Telefonica-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Telefonica";
+  src: url("assets/fonts/Telefonica-Regular.otf"),
+    url("assets/fonts/Telefonica-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Telefonica-RegularItalic';
+  src: url('/assets/fonts/Telefonica-RegularItalic.otf'),
+    url('/assets/fonts/Telefonica-RegularItalic.ttf');
+}
+
+@font-face {
+  font-family: 'TelefonicaCap-Regular';
+  src: url('/assets/fonts/TelefonicaCap-Regular.otf'),
+    url('/assets/fonts/TelefonicaCap-Regular.ttf');
+}
+
+// Telefonica-Bold
+.tlf-bold-8 {
+  @include telefonica-bold(8px);
+}
+
+.tlf-bold-10 {
+  @include telefonica-bold(10px);
+}
+
+.tlf-bold-11 {
+  @include telefonica-bold(11px);
+}
+
+.tlf-bold-12 {
+  @include telefonica-bold(12px);
+}
+
+.tlf-bold-13 {
+  @include telefonica-bold(13px);
+}
+
+.tlf-bold-14 {
+  @include telefonica-bold(14px);
+}
+
+.tlf-bold-15 {
+  @include telefonica-bold(15px);
+}
+
+.tlf-bold-16 {
+  @include telefonica-bold(16px);
+}
+
+.tlf-bold-17 {
+  @include telefonica-bold(17px);
+}
+.tlf-bold-18 {
+  @include telefonica-bold(18px);
+}
+
+.tlf-bold-20 {
+  @include telefonica-bold(20px);
+}
+
+.tlf-bold-22 {
+  @include telefonica-bold(22px);
+}
+
+.tlf-bold-24 {
+  @include telefonica-bold(24px);
+}
+
+.tlf-bold-28 {
+  @include telefonica-bold(28px);
+}
+
+.tlf-bold-32 {
+  @include telefonica-bold(32px);
+}
+
+.tlf-bold-35 {
+  @include telefonica-bold(35x);
+}
+
+
+// Telefonica-ExtraLight
+.tlf-ext-light-10 {
+  @include telefonica-extraLight(10px);
+}
+.tlf-ext-light-12 {
+  @include telefonica-extraLight(12px);
+}
+.tlf-ext-light-14 {
+  @include telefonica-extraLight(14px);
+}
+
+.tlf-ext-light-16 {
+  @include telefonica-extraLight(16px);
+}
+
+.tlf-ext-light-17 {
+  @include telefonica-extraLight(17px);
+}
+.tlf-ext-light-18 {
+  @include telefonica-extraLight(18px);
+}
+.tlf-ext-light-24 {
+  @include telefonica-extraLight(24px);
+}
+
+// Telefonica-Hand
+.tlf-hand-12 {
+  @include telefonica-hand(12px);
+}
+.tlf-hand-14 {
+  @include telefonica-hand(14px);
+}
+.tlf-hand-24 {
+  @include telefonica-hand(24px);
+}
+
+// Telefonica-Light
+.tlf-light-10 {
+  @include telefonica-light(10px);
+}
+.tlf-light-11 {
+  @include telefonica-light(11px);
+}
+.tlf-light-12 {
+  @include telefonica-light(12px);
+}
+.tlf-light-13 {
+  @include telefonica-light(12px);
+}
+
+.tlf-light-14 {
+  @include telefonica-light(14px);
+}
+.tlf-light-16 {
+  @include telefonica-light(16px);
+}
+.tlf-light-18 {
+  @include telefonica-light(18px);
+}
+.tlf-light-20 {
+  @include telefonica-light(20px);
+}
+.tlf-light-24 {
+  @include telefonica-light(24px);
+}
+.tlf-light-26 {
+  @include telefonica-light(26px);
+}
+.tlf-light-28 {
+  @include telefonica-light(28px);
+}
+.tlf-light-32 {
+  @include telefonica-light(32px);
+}
+
+
+// Telefonica-Regular
+.tlf-rg-8 {
+  @include telefonica-regular(8px);
+}
+
+.tlf-rg-9 {
+  @include telefonica-regular(9px);
+}
+
+.tlf-rg-10 {
+  @include telefonica-regular(10px);
+}
+.tlf-rg-11 {
+  @include telefonica-regular(11px);
+}
+.tlf-rg-12 {
+  @include telefonica-regular(12px);
+}
+.tlf-rg-14 {
+  @include telefonica-regular(14px);
+}
+.tlf-rg-15 {
+  @include telefonica-regular(15px);
+}
+.tlf-rg-16 {
+  @include telefonica-regular(16px);
+}
+.tlf-rg-17 {
+  @include telefonica-regular(17px);
+}
+
+.tlf-rg-18 {
+  @include telefonica-regular(18px);
+}
+
+.tlf-rg-20 {
+  @include telefonica-regular(20px);
+}
+
+.tlf-rg-22 {
+  @include telefonica-regular(22px);
+}
+
+.tlf-rg-24 {
+  @include telefonica-regular(24px);
+}
+
+.tlf-rg-28 {
+  @include telefonica-regular(28px);
+}
+
+.tlf-rg-32 {
+  @include telefonica-regular(32px);
+}
+
+// Telefonica-RegularItalic
+.tlf-rg-it-12 {
+  @include telefonica-regular-italic(12px);
+}
+.tlf-rg-it-14 {
+  @include telefonica-regular-italic(14px);
+}
+.tlf-rg-it-24 {
+  @include telefonica-regular-italic(24px);
+}
+
+// Telefonica-Regular
+.tlf-rg-it-12 {
+  @include telefonica-cap-regular(12px);
+}
+.tlf-rg-it-14 {
+  @include telefonica-cap-regular(14px);
+}
+.tlf-rg-it-24 {
+  @include telefonica-cap-regular(24px);
+}

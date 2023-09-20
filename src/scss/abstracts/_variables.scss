@@ -1,0 +1,382 @@
+$visor-red: #e63780;
+$visor-magenta-light-two: #ffbcd8;
+$visor-baby-red: #febed9;
+$visor-limegreen: #5bc500;
+$visor-black: #262626;
+$visor-black-black: #000000;
+$visor-black-rock: #2a2a3b;
+$visor-black-light: #424040;
+$visor-gray-intense : #50535A;
+$visor-scroll: rgba(0, 0, 0, 0.5);
+$visor-dark-blue: #0B2739;
+$visor-blue: #335c9e;
+$visor-medium-blue: #008EDD;
+$visor-light-blue: #00a9e0;
+$visor-light-blue-two: #c8ecff;
+$visor-baby-blue: #90d8ff;
+$visor-skye-blue: #019df4;
+$visor-light-blue-transparent: #2f71da40;
+$visor-light-skye-blue: #EAF7FF;
+$visor-light-gray-2: #D3D4D3;
+$visor-light-gray-3: #FAFAFA;
+$visor-purple: #9e5ca0;
+$visor-dark-purple: #642A72;
+$visor-grape: #A13EA1;
+$visor-magenta: #922859;
+$visor-magenta-light: #FDDDEB;
+$visor-gris: #757575;
+$visor-dark-gray: #747474;
+$visor-suva-gray: #919191;
+$visor-dark-gris: #86888c;
+$visor-gray: #adadad;
+$visor-light-gray-1: #b6b7b7;
+$visor-light-aqua-1: #EFEFEF;
+$visor-light-silver: #d7d7d7;
+$visor-dark-orange: #ec6839;
+$visor-light-gray: #ededed;
+$visor-dark-gold: #f59c00;
+$visor-light-orange: #FFF4DD;
+$visor-white-smoke: #f5f5f5;
+$visor-white: #ffffff;
+$visor-gray-smoke: #f6f6f6;
+$visor-dark-gray: #cccccc;
+$visor-light-aqua: #f5fcff;
+$visor-orange: #f28d15;
+$visor-pink: #e63780;
+$visor-dark-red: #ec624b;
+$visor-green: #5cb615;
+$visor-dark-green: #3C7521;
+$visor-light-green: #EFFFE1;
+$visor-green-yellow: #C7FE4C;
+$visor-black-red: #ff374a;
+$visor-red-ochre: #983230;
+$visor-warnking-light: #FFF3E9;
+$visor-yellow: #ffd600;
+$visor-light-yellow: #fffe3e;
+$visor-light-white: #F5FBFF;
+$visor-strong-skye-blue: #15A5F5;
+$visor-light-blue-strong: #EDF9FF;
+$visor-light-translucent: #E6F5FE;
+$visor-baby-orange: #F8D2B3;
+$visor-baby-green: #BDE4A4;
+$visor-light-red: #F8CCCC;
+$visor-light-red-2: #FFECEE;
+$visor-alice-blue: #E6F5FD;
+$visor-primary-blue: #019DF4;
+$visor-light-purple: #DEBCE4;
+$visor-gray-green: #008000;
+$visor-light-pink: #FDF0FF;
+$visor-grey-1: #6C6F74;
+$visor-grey-strong: #86888C;
+
+/* clases genéricas para colores de texto */
+
+.color-visor-light-sky-blue {
+  color: $visor-light-skye-blue;
+}
+
+.color-visor-primary-blue {
+  color: $visor-primary-blue;
+}
+
+.color-visor-red {
+  color: $visor-red;
+}
+
+.color-visor-red-ochre {
+  color: $visor-red-ochre;
+}
+
+.color-visor-limegreen {
+  color: $visor-limegreen;
+}
+
+.color-visor-black {
+  color: $visor-black;
+}
+
+.color-visor-light-blue {
+  color: $visor-light-blue;
+}
+
+.color-visor-purple {
+  color: $visor-purple;
+}
+
+.color-visor-green {
+  color: $visor-green;
+}
+
+.color-visor-dark-green {
+  color: $visor-dark-green;
+}
+
+.color-visor-light-green {
+  color: $visor-light-green;
+}
+
+.color-visor-gris {
+  color: $visor-dark-gris !important;
+}
+
+.color-visor-gray {
+  color: $visor-gray;
+}
+
+.color-visor-dark-gray {
+  color: $visor-dark-gray;
+}
+
+.color-visor-dark-orange {
+  color: $visor-dark-orange;
+}
+
+.color-visor-orange {
+  color: $visor-orange;
+}
+
+.color-visor-light-gray {
+  color: $visor-light-gray;
+}
+
+.color-visor-light-gray-1 {
+  color: $visor-light-gray-1;
+}
+
+.color-visor-light-gray-2 {
+  color: $visor-light-gray-2;
+}
+
+.color-visor-dark-gold {
+  color: $visor-dark-gold;
+}
+
+.color-visor-white-smoke {
+  color: $visor-white-smoke;
+}
+
+.color-visor-white {
+  color: $visor-white;
+}
+
+.color-visor-light-silver {
+  color: $visor-light-silver;
+}
+
+.color-visor-light-aqua {
+  background-color: $visor-light-aqua;
+}
+
+.color-visor-pink {
+  color: $visor-pink;
+}
+
+.color-visor-dark-red {
+  color: $visor-dark-red;
+}
+
+.color-visor-black-red {
+  color: $visor-black-red;
+}
+
+.color-visor-sky-blue {
+  color: $visor-skye-blue;
+}
+
+.color-visor-gray-intense {
+  color: $visor-gray-intense
+}
+
+.color-visor-dark-blue {
+  color: $visor-dark-blue;
+}
+
+.color-visor-baby-orange {
+  color: $visor-baby-orange;
+}
+
+.color-visor-light-purple {
+  color: $visor-light-purple;
+}
+
+.color-visor-grape {
+  color: $visor-grape;
+}
+
+.color-visor-grey-strong {
+  color: $visor-grey-strong;
+}
+
+/* clases genéricas para colores de background */
+
+.bg-visor-red {
+  background-color: $visor-red;
+}
+
+.bg-visor-red-ochre {
+  background-color: $visor-red-ochre;
+}
+
+.bg-visor-limegreen {
+  background-color: $visor-limegreen;
+}
+
+.bg-visor-black {
+  background-color: $visor-black;
+}
+
+.bg-visor-blue {
+  color: $visor-blue;
+}
+
+.bg-visor-light-blue {
+  background-color: $visor-light-blue;
+}
+
+.bg-visor-purple {
+  background-color: $visor-purple;
+}
+
+.bg-dark-purple {
+  background-color: $visor-dark-purple;
+}
+
+.bg-visor-grape {
+  background-color: $visor-grape;
+}
+
+.bg-visor-magenta {
+  background-color: $visor-magenta;
+}
+
+.bg-visor-gray {
+  background-color: $visor-gray;
+}
+
+.bg-visor-gris {
+  background-color: $visor-dark-gris;
+}
+
+.bg-visor-green {
+  background-color: $visor-green;
+}
+
+.bg-visor-dark-green {
+  background-color: $visor-dark-green;
+}
+
+.bg-visor-light-green {
+  background-color: $visor-light-green;
+}
+
+.bg-visor-dark-gray {
+  background-color: $visor-dark-gray;
+}
+
+.bg-visor-dark-orange {
+  background-color: $visor-dark-orange;
+}
+
+.bg-visor-light-orange {
+  background-color: $visor-light-orange;
+}
+
+.bg-visor-orange {
+  background-color: $visor-orange;
+}
+
+.bg-visor-pink {
+  background-color: $visor-pink;
+}
+
+.bg-visor-light-gray {
+  background-color: $visor-light-gray;
+}
+
+.bg-visor-dark-gold {
+  background-color: $visor-dark-gold;
+}
+
+
+.bg-visor-white-smoke {
+  background-color: $visor-white-smoke;
+}
+
+.bg-visor-white {
+  background-color: $visor-white;
+}
+
+.bg-visor-light-aqua {
+  background-color: $visor-light-aqua;
+}
+
+.bg-visor-sky-blue {
+  background-color: $visor-skye-blue;
+}
+
+.bg-visor-dark-red {
+  background-color: $visor-dark-red;
+}
+
+.bg-visor-black-red {
+  background-color: $visor-black-red;
+}
+
+.bg-visor-light-gray-1 {
+  background-color: $visor-light-gray-1;
+}
+
+.bg-visor-light-agua-1 {
+  background-color: $visor-light-aqua-1;
+}
+
+.bg-visor-dark-blue {
+  background-color: $visor-dark-blue;
+}
+
+.bg-visor-medium-blue {
+  background-color: $visor-medium-blue;
+}
+
+.bg-visor-baby-blue {
+  background-color: $visor-baby-blue;
+}
+
+.bg-visor-yellow {
+  background-color: $visor-yellow;
+}
+
+.bg-visor-light-skye-blue {
+  background-color: $visor-light-skye-blue;
+}
+
+.bg-light-blue-strong {
+  background-color: $visor-light-blue-strong;
+}
+
+.bg-visor-baby-orange {
+  background-color: $visor-baby-orange;
+}
+
+.bg-visor-light-purple {
+  background-color: $visor-light-purple;
+}
+
+/** Clases genericas para sombras*/
+.shadow-visor-limegreen {
+  box-shadow: 0px 0px 15px -1px rgba(91, 197, 0, 1);
+  -webkit-box-shadow: 0px 0px 15px -1px rgba(91, 197, 0, 1);
+  -moz-box-shadow: 0px 0px 15px -1px rgba(91, 197, 0, 1);
+}
+
+.shadow-visor-red {
+  box-shadow: 0px 0px 15px -1px rgba(230, 55, 128, 1);
+  -webkit-box-shadow: 0px 0px 15px -1px rgba(230, 55, 128, 1);
+  -moz-box-shadow: 0px 0px 15px -1px rgba(230, 55, 128, 1);
+}
+
+.shadow-visor-gray {
+  box-shadow: 0px 0px 15px -1px rgba(237, 237, 237, 1);
+  -webkit-box-shadow: 0px 0px 15px -1px rgba(237, 237, 237, 1);
+  -moz-box-shadow: 0px 0px 15px -1px rgba(237, 237, 237, 1);
+}

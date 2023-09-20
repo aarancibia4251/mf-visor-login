@@ -1,0 +1,92 @@
+@mixin font-size($size) {
+  font-size: $size !important;
+}
+
+@mixin telefonica-bold($fontsize) {
+  font-family: Telefonica-Bold;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  @include font-size($fontsize);
+}
+
+@mixin telefonica-extraLight($fontsize) {
+  font-family: Telefonica-ExtraLight;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  @include font-size($fontsize);
+}
+
+@mixin telefonica-hand($fontsize) {
+  font-family: Telefonica-Hand;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  @include font-size($fontsize);
+}
+
+@mixin telefonica-light($fontsize) {
+  font-family: Telefonica-Light;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  @include font-size($fontsize);
+}
+
+@mixin telefonica-regular($fontsize) {
+  font-family: Telefonica-Regular;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  @include font-size($fontsize);
+}
+
+@mixin telefonica-regular-italic($fontsize) {
+  font-family: Telefonica-RegularItalic;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  @include font-size($fontsize);
+}
+
+@mixin telefonica-cap-regular($fontsize) {
+  font-family: TelefonicaCap-Regular;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  @include font-size($fontsize);
+}
+
+@mixin border-radius($radius) {
+  border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+}
+
+@mixin flex-now-wrap() {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+@mixin flex-wrap() {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

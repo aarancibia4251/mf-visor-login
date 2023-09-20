@@ -1,0 +1,19 @@
+:host {
+
+  #principal > div {
+    display: block;
+    padding: 10px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  #principal-child {
+    height: fit-content;
+  }
+
+  #contenedor {
+    position: relative;
+    min-height: 630px;
+    max-height: 630px;
+  }
+}
